@@ -31,33 +31,33 @@ static SemaphoreHandle_t lvgl_mux = NULL;
 
 #define EXAMPLE_LCD_BK_LIGHT_ON_LEVEL  1
 #define EXAMPLE_LCD_BK_LIGHT_OFF_LEVEL !EXAMPLE_LCD_BK_LIGHT_ON_LEVEL
-// #define EXAMPLE_PIN_NUM_LCD_CS            (GPIO_NUM_5)
-// #define EXAMPLE_PIN_NUM_LCD_PCLK          (GPIO_NUM_4)
-// #define EXAMPLE_PIN_NUM_LCD_DATA0         (GPIO_NUM_3)
-// #define EXAMPLE_PIN_NUM_LCD_DATA1         (GPIO_NUM_10)
-// #define EXAMPLE_PIN_NUM_LCD_DATA2         (GPIO_NUM_9)
-// #define EXAMPLE_PIN_NUM_LCD_DATA3         (GPIO_NUM_6)
-// #define EXAMPLE_PIN_NUM_LCD_RST           (GPIO_NUM_0)
-// #define EXAMPLE_PIN_NUM_BK_LIGHT          (GPIO_NUM_1)
+#define EXAMPLE_PIN_NUM_LCD_CS            (GPIO_NUM_5)
+#define EXAMPLE_PIN_NUM_LCD_PCLK          (GPIO_NUM_4)
+#define EXAMPLE_PIN_NUM_LCD_DATA0         (GPIO_NUM_3)
+#define EXAMPLE_PIN_NUM_LCD_DATA1         (GPIO_NUM_10)
+#define EXAMPLE_PIN_NUM_LCD_DATA2         (GPIO_NUM_9)
+#define EXAMPLE_PIN_NUM_LCD_DATA3         (GPIO_NUM_6)
+#define EXAMPLE_PIN_NUM_LCD_RST           (GPIO_NUM_0)
+#define EXAMPLE_PIN_NUM_BK_LIGHT          (GPIO_NUM_1)
 
-// #define EXAMPLE_PIN_NUM_TOUCH_SCL         (GPIO_NUM_11)
-// #define EXAMPLE_PIN_NUM_TOUCH_SDA         (GPIO_NUM_8)
-// #define EXAMPLE_PIN_NUM_TOUCH_RST         (GPIO_NUM_13)
-// #define EXAMPLE_PIN_NUM_TOUCH_INT         (GPIO_NUM_14)
-
-#define EXAMPLE_PIN_NUM_LCD_CS            (GPIO_NUM_9)
-#define EXAMPLE_PIN_NUM_LCD_PCLK          (GPIO_NUM_10)
-#define EXAMPLE_PIN_NUM_LCD_DATA0         (GPIO_NUM_11)
-#define EXAMPLE_PIN_NUM_LCD_DATA1         (GPIO_NUM_12)
-#define EXAMPLE_PIN_NUM_LCD_DATA2         (GPIO_NUM_13)
-#define EXAMPLE_PIN_NUM_LCD_DATA3         (GPIO_NUM_14)
-#define EXAMPLE_PIN_NUM_LCD_RST           (GPIO_NUM_17)
-#define EXAMPLE_PIN_NUM_BK_LIGHT          (GPIO_NUM_0)
-
-#define EXAMPLE_PIN_NUM_TOUCH_SCL         (GPIO_NUM_18)
+#define EXAMPLE_PIN_NUM_TOUCH_SCL         (GPIO_NUM_11)
 #define EXAMPLE_PIN_NUM_TOUCH_SDA         (GPIO_NUM_8)
-#define EXAMPLE_PIN_NUM_TOUCH_RST         (GPIO_NUM_21)
-#define EXAMPLE_PIN_NUM_TOUCH_INT         (GPIO_NUM_47)
+#define EXAMPLE_PIN_NUM_TOUCH_RST         (GPIO_NUM_13)
+#define EXAMPLE_PIN_NUM_TOUCH_INT         (GPIO_NUM_14)
+
+// #define EXAMPLE_PIN_NUM_LCD_CS            (GPIO_NUM_9)
+// #define EXAMPLE_PIN_NUM_LCD_PCLK          (GPIO_NUM_10)
+// #define EXAMPLE_PIN_NUM_LCD_DATA0         (GPIO_NUM_11)
+// #define EXAMPLE_PIN_NUM_LCD_DATA1         (GPIO_NUM_12)
+// #define EXAMPLE_PIN_NUM_LCD_DATA2         (GPIO_NUM_13)
+// #define EXAMPLE_PIN_NUM_LCD_DATA3         (GPIO_NUM_14)
+// #define EXAMPLE_PIN_NUM_LCD_RST           (GPIO_NUM_17)
+// #define EXAMPLE_PIN_NUM_BK_LIGHT          (GPIO_NUM_0)
+
+// #define EXAMPLE_PIN_NUM_TOUCH_SCL         (GPIO_NUM_18)
+// #define EXAMPLE_PIN_NUM_TOUCH_SDA         (GPIO_NUM_8)
+// #define EXAMPLE_PIN_NUM_TOUCH_RST         (GPIO_NUM_21)
+// #define EXAMPLE_PIN_NUM_TOUCH_INT         (GPIO_NUM_47)
 
 esp_lcd_touch_handle_t tp = NULL;
 
