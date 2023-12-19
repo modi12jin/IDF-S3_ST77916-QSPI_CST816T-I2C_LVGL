@@ -1,7 +1,7 @@
 ## IDF Component Manager Manifest File
 dependencies:
   espressif/esp_lcd_touch_cst816s: "^1.0.3"
-  espressif/esp_lcd_st77916: "^0.0.1"
+  espressif/esp_lcd_st77916: "^0.0.2"
   lvgl/lvgl: "^8.3.11"
   ## Required IDF version
   idf:
